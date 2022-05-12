@@ -18,9 +18,9 @@ Para Tarjeta SD
 
 ```curl -s -L https://raw.githubusercontent.com/DSMan97/FallGuys_Fix_SteamDeck/main/fallguys_fix_anticheat_SD.sh | bash ```
 
-## PASO 2 Seleccionar la ubicación (en caso de que se pida)
+## PASO 2 Seleccionar la ubicación del Proton AntiCheat Runtime(en caso de que se pida)
 
-En caso de que saliera una ventana de Steam para instalar proton, selecionar la ruta a instalar para cada caso.
+En caso de que saliera una ventana de Steam para instalar <b>proton</b> , selecionar la ruta a instalar para cada caso.
 
 Si se instala en Memoria Interna seleccionar Memoria Interna
 
