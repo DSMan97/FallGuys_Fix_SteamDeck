@@ -1,23 +1,8 @@
 #!/bin/bash
-echo "¿Dónde tienes instalado Fall Guys?"
-echo "1. Memoria Interna"
-echo "2. SD"
-printf "\n"
-printf "Escribe el número de la opción que desees:\n"
-read location
-
 
 STEAMAPPS_PATH="$HOME/.steam/steam/steamapps"
 
-if ["$location" = "1"]; then
-    STEAMAPPS_PATH="$HOME/.steam/steam/steamapps"
-    exit
-fi
 
-if ["$location" = "2"]; then
-    STEAMAPPS_PATH="/run/media/mmcblk0p1/steamapps"
-    exit
-fi
 
 
 FALLGUYS_PATH=$STEAMAPPS_PATH/common/Fall\ Guys
