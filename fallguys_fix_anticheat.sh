@@ -1,9 +1,9 @@
 #!/bin/bash
 
+echo "Script para arreglar el error relacionado con el AntiCheat de FallGuys"
+echo "Ejecuntando Script para FallGuys en Memoria Interna..."
+
 STEAMAPPS_PATH="$HOME/.steam/steam/steamapps"
-
-
-
 
 FALLGUYS_PATH=$STEAMAPPS_PATH/common/Fall\ Guys
 
