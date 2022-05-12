@@ -12,7 +12,7 @@ if [ ! -d "$FALLGUYS_PATH" ]; then
     exit
 fi
 
-cd "$FALLGUYS_PATH/EasyAntiCheat/"
+cd "$FALLGUYS_PATH/FallGuys_client_game_Data/Plugins/x86_64"
 rm easyanticheat_x64.so
 cd $HOME
 
