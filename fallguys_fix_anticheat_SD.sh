@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Script para arreglar el error relacionado con el AntiCheat de FallGuys"
 echo "Ejecuntando Script para FallGuys en Tarjeta SD..."
 
 STEAMAPPS_PATH="/run/media/mmcblk0p1/steamapps"
