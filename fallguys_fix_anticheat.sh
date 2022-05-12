@@ -2,19 +2,27 @@
 echo "¿Dónde tienes instalado Fall Guys?"
 echo "1. Memoria Interna"
 echo "2. SD"
-read  -n 1 -p "escribe el número de la opción que desees:" location
+printf "\n"
+printf "Escribe el número de la opción que desees:\n"
+read location
+
+
+STEAMAPPS_PATH="$HOME/.steam/steam/steamapps"
 
 if ["$location" = "1"]; then
-    STEAMAPPS_PATH=${1-~/.steam/steam/steamapps}
+    STEAMAPPS_PATH="$HOME/.steam/steam/steamapps"
     exit
 fi
 
 if ["$location" = "2"]; then
-    STEAMAPPS_PATH=${1-/run/media/mmcblk0p1/steamapps}
+    STEAMAPPS_PATH="/run/media/mmcblk0p1/steamapps"
     exit
 fi
 
+
 FALLGUYS_PATH=$STEAMAPPS_PATH/common/Fall\ Guys
+
+echo "$STEAMAPPS_PATH"
 
 if [ ! -d "$FALLGUYS_PATH" ]; then
     echo "No se ha econtrado FallGuys en la ubicación seleccionada."
