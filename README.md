@@ -23,6 +23,7 @@ Para Tarjeta SD
 En caso de que saliera una ventana de Steam para instalar proton, selecionar la ruta a instalar para cada caso.
 
 Si se instala en Memoria Interna seleccionar Memoria Interna
+
 Si se instala en Tarjeta SD selecciona Tarjeta SD
 
 
