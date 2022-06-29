@@ -24,7 +24,12 @@ En caso de que saliera una ventana de Steam para instalar <b>proton</b> , seleci
 
 Si se instala en Memoria Interna seleccionar Memoria Interna
 
+![image](https://user-images.githubusercontent.com/34092854/176424963-afe86b33-7d70-4818-bbd4-00aeb0b6bd30.png)
+
+
 Si se instala en Tarjeta SD selecciona Tarjeta SD
+![image](https://user-images.githubusercontent.com/34092854/176425020-5ca42e3d-3b05-41fb-ab4e-879381b5cf46.png)
+
 
 
 
